@@ -1,6 +1,6 @@
 # PROFOIL
 
-PROFOIL is a computer program for the design of isolated airfoils.  
+PROFOIL is a computer program for the inverse design of isolated airfoils.  
 
 ## Compiling PROFOIL and Testing
 

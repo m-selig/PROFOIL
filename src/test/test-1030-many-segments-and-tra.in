@@ -1,0 +1,90 @@
+
+
+AIRFOIL  test-1030 This airfoil has many segements
+
+COORD 60
+
+FOIL    10.73282   -14.47426    1
+FOIL    11.73282   -11.05766    2
+FOIL    12.73282    -7.64096    3
+FOIL    13.73282    -4.22426    4
+FOIL    14.73282    -0.80766    5
+FOIL    15.73292     1.18584    6
+FOIL    16.73292     1.76924    7
+FOIL    17.73292     2.37554    8
+FOIL    18.73292     3.00054    9
+FOIL    19.73292     3.62554   10
+FOIL    20.73292     3.94194   11
+FOIL    21.73292     4.24194   12
+FOIL    22.73292     4.54194   13
+FOIL    23.73292     4.73744   14
+FOIL    24.73292     5.08364   15
+FOIL    25.73292     5.38404   16
+FOIL    26.73292     5.67824   17
+FOIL    27.73292     5.97234   18
+FOIL    28.73292     6.75514   19
+FOIL    29.73292     8.12224   20
+FOIL    30.73292    10.55084   21
+FOIL    31.60042    13.32004   22
+FOIL    32.73292    -0.23894   23
+FOIL    33.73292     1.89416   24
+FOIL    34.73292     2.89416   25
+FOIL    35.73292     3.29876   26
+FOIL    36.73292     3.53686   27
+FOIL    37.73292     3.77496   28
+FOIL    38.73292     3.77326   29
+FOIL    39.73292     4.10666   30
+FOIL    40.73292     4.43996   31
+FOIL    41.73292     4.77326   32
+FOIL    42.73292     5.10666   33
+FOIL    43.73292     5.43996   34
+FOIL    44.73292     5.77326   35
+FOIL    45.73292     6.10666   36
+FOIL    46.73292     6.43996   37
+FOIL    48.73292     6.77326   38
+FOIL    60.00000     8.06936   39
+PHIS     3.50000    56.50000
+FTE     10.0         3.50000    56.50000
+REC      0.20000     0.05000
+VLEV     1           0.92013
+ILE     22
+
+# add increment to upper and lower
+#BUMPALFAS 400 -3
+
+TOLSPEC 0.0001
+ITERMAX 35
+ECHO
+#NOECHO
+
+# Ks via phi_LE
+#NEWT1G0  100 0.5 1 19   .5
+NEWT1G0  100 0.0 1 800  .5
+IDES
+
+# cmo via velocity level
+NEWT1G0  101 -.09105 4  1  .025
+IDES
+
+# TE velocity level
+
+NEWT1G0 155  0.00    0  1
+NEWT1G0 156  0.0041    0  2
+NEWT1G0 157  0.00    0  3
+NEWT1G0 158  0.00    0  4
+
+# thickness via l.s. alfa*
+NEWT1G0  107 .1170   6 300 .5
+IDES
+
+FINISH 100
+ALFASP 4
+2
+4
+6
+8
+VELDIST 60
+DUMP
+
+AIRFOIL  test-1030 This airfoil has many segements
+*

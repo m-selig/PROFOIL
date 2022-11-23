@@ -1,0 +1,37 @@
+AIRFOIL This is a comment line.  Can be anything.
+AIRFOIL Filename: test-1000-four-seg.in
+
+COORD 60
+FOIL    15.50000     8.00000    1
+FOIL    31.90752     8.00000    2
+FOIL    45.50000     4.00000    3
+FOIL    60.00000     4.00000    4
+PHIS     2.50000    56.50000
+REC       .20000     1.00000
+VLEV     1           1.38331
+ILE      2
+
+TOLSPEC 0.001
+ITERMAX 20
+NOECHO
+
+NEWT1G0 100 0.35 1 2
+IDES
+
+NEWT1G0 101 -0.15 4 1 0.1
+IDES
+
+FINISH 100 90 20 30 70 80
+ALFASP 7
+2
+4
+6
+8
+10
+12
+14
+VELDIST 60
+DUMP
+
+AIRFOIL Different comment - EXAMPLE1 Four Segment
+*

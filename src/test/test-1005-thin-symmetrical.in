@@ -1,0 +1,73 @@
+# PROFOIL input file:
+# symmetric airfoil (SYM line enforces symmetry)
+#
+# Only specify the K_S value and iteration on alfa* values
+
+AIRFOIL test-1005-thin-symmetrical
+
+COORD 60
+SYM
+FOIL    10.5000   -2.2438    1   0
+FOIL    12.5000   -2.0652    2   0
+FOIL    14.5000   -1.8866    3   0
+FOIL    16.5000   -1.7080    4   0
+FOIL    18.5000   -1.5179    5   0
+FOIL    20.5000   -1.3179    6   0
+FOIL    22.5000    0.0929    7   0
+FOIL    24.5000    1.6809    8   0
+FOIL    26.5000    4.0584    9   0
+FOIL    28.5000    7.9989   10   0
+FOIL    29.5000    9.7322   11   0
+FOIL    30.0000   10.5989   12   0  <--- ILE
+
+FTE     6    3.50000    56.50000
+PHIS     3.50000    56.50000
+REC      0.03 0.03
+VLEV     1           0.94017
+ILE     12
+
+# set the convergence tolerance
+TOLSPEC  0.0001
+
+# set the maximum number of iterations
+ITERMAX  20
+
+# do not write out profoil_tra.dat
+NOECHO
+
+# specify the TE thickness parameter (.6) and iterate on the velocity level
+NEWT1G0 100 0   4 1
+IDES
+
+# Specify OMEGA_us = 1, and alfa*'s are iterated on
+#NEWT1G0 184  1  6  300  0.5
+#IDES
+
+# Or ... specify OMEGA_ls = 1, and alfa*'s are iterated on
+#NEWT1G0 185  1  6  300  0.5
+#IDES
+
+# Or ... specify the t/c, and alfa*'s are iterated on
+NEWT1G0 107  0.08  6  300  0.5
+IDES
+
+# Specify trailing thickness of 0.004 inch for 7 inch chord
+NEWT1G0 156  0.00057     0  2
+IDES
+NEWT1G0 158  0.00000    0  4
+IDES
+
+
+# finish the airfoil and determine the velocity distribution for 4 angles of attack: 0, 2, 4, 6 deg
+FINISH 100
+ALFASP  4
+0
+2
+4
+6
+VELDIST 60
+DUMP
+
+AIRFOIL test-1005-thin-symmetrical
+
+*

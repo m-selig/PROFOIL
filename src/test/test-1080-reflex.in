@@ -1,0 +1,84 @@
+
+AIRFOIL Reflex
+
+COORD 60
+FOIL    13.61140   -17.68179    1
+FOIL    14.61140   -13.14339    2
+FOIL    15.61140    -9.37849    3
+FOIL    16.61140    -6.93019    4
+FOIL    17.61140    -4.48199    5
+FOIL    18.61140    -2.03369    6
+FOIL    19.61140     0.41461    7
+FOIL    20.61140     1.64851    8
+FOIL    21.61140     2.43801    9
+FOIL    22.61140     3.22751   10
+FOIL    23.61140     3.67581   11
+FOIL    24.61140     3.98131   12
+FOIL    25.61140     4.13511   13
+FOIL    26.61140     4.28901   14
+FOIL    27.61140     4.44281   15
+FOIL    28.61140     4.59671   16
+FOIL    29.61140     5.65481   17
+FOIL    30.64520     6.77171   18
+FOIL    31.61140    -3.30481   19
+FOIL    32.61140    -1.24601   20
+FOIL    33.61140     0.81279   21
+FOIL    34.61140     2.42969   22
+FOIL    35.61140     3.02969   23
+FOIL    36.61140     3.37569   24
+FOIL    37.61140     3.37569   25
+FOIL    38.61140     3.24499   26
+FOIL    39.61140     2.65849   27
+FOIL    40.61140     1.85379   28
+FOIL    41.61140     0.94899   29
+FOIL    42.61140     0.04429   30
+FOIL    43.61140    -0.86051   31
+FOIL    44.61140    -1.76531   32
+FOIL    45.61140    -2.67001   33
+FOIL    46.61140    -3.57481   34
+FOIL    47.61140    -4.47951   35
+FOIL    48.61140    -5.38431   36
+FOIL    60.00000     2.63819   37
+PHIS     4.50000    55.50000
+FTE      5.0         4.50000    50.50000
+REC      2.03000     0.03000
+VLEV     1           0.78010
+ILE     18
+
+TOLSPEC 0.00001
+ITERMAX 15
+
+#BUMPALFAS 400 -2
+
+# Specify Ks and iterate on all phi's
+NEWT1G0  100 0.000     1 800  .5
+IDES   
+
+# Specify Cm and iterate on the velocity level
+NEWT1G0  101 0.05     4 1
+IDES
+
+# Specify the thickness and iterate on the alpha* +/-
+NEWT1G0  107  0.09     6 300
+IDES
+
+# Specify trailing thickness (0.134 inch on 8 ft chord)
+NEWT1G0 156  0.0020  0  2
+IDES
+NEWT1G0 158  0.00000    0  4
+IDES
+
+
+FINISH 100
+ALFASP 5
+4
+6
+8
+10
+12
+
+VELDIST 50 60
+DUMP
+*
+
+

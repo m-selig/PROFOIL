@@ -1,0 +1,42 @@
+# 125
+
+AIRFOIL MAN125
+COORD 60 
+FOIL    18.33000     5.00000    1
+FOIL    31.74561    15.00000    2
+FOIL    46.66600      .00000    3
+FOIL    60.00000    10.00000    4
+DELV 16    2      4
+   .300     .200000
+   .700     .600000
+   .800     .450000
+  1.000     .350000
+DELV  1    3      .20000
+PHIS     3.33000    56.66600
+REC      2.00000     2.00000
+VLEV     1           1.50711
+ILE      2
+
+TOLSPEC 0.00001
+ITERMAX 15
+
+# Specify Ks and iterate on LE arc limit
+NEWT1G0 100  .3  1 2
+IDES
+
+# Specify moment and iterate on velocity level
+NEWT1G0 101 -.05  4 1
+IDES
+
+FINISH 100
+ALFASP 4
+0
+5
+10
+15
+
+VELDIST 50 60
+
+DUMP
+AIRFOIL MAN125
+*

@@ -24,4 +24,4 @@ Complete the installation of the User Interface (UI) by following the install in
 
 ## License
 
-PROFOIL is released under the MIT License.  Three subroutines (draw, qip, and thicke) were adapted from NASA TM-80210.  PROFOIL uses some subroutines from [LINPACK](https://netlib.org/linpack/).
+PROFOIL is released under the MIT License.  Three subroutines (draw, qip, and thicke) were adapted from NASA TM-80210.  PROFOIL uses some subroutines from [LINPACK](https://netlib.org/linpack/) for matrix solving.

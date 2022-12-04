@@ -20,10 +20,8 @@ The user guide for PROFOIL is here **./docs/PROFOIL-User-Guide-2022.pdf**.
 
 ## PROFOIL-UI
 
-Complete the installation of the User Interface (UI) by following the install instructions for PROFOIL-UI here:
-
-https://github.com/kjayawar/PROFOIL-UI
+Complete the installation of the User Interface (UI) by following the install instructions for [PROFOIL-UI](https://github.com/kjayawar/PROFOIL-UI).
 
 ## License
 
-PROFOIL is released under the MIT License.  Three subroutines (draw, qip, and thicke) were adapted from NASA TM-80210.
+PROFOIL is released under the MIT License.  Three subroutines (draw, qip, and thicke) were adapted from NASA TM-80210.  PROFOIL uses some libraries from [LAPACK](https://github.com/Reference-LAPACK/lapack).

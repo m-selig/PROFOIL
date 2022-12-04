@@ -16,7 +16,7 @@ source profoil-gfortran.sh
 
 ## User Guide
 
-The user guide for PROFOIL is here **./doc/PROFOIL-User-Guide-2022.pdf**.
+The user guide for PROFOIL is here **./docs/PROFOIL-User-Guide-2022.pdf**.
 
 ## PROFOIL-UI
 

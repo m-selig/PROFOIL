@@ -11,7 +11,7 @@ mkdir -p test
 # Build profoil using gfortran
 mkdir -p temp
 rm -vf temp/*.o temp/*.f temp/*.inc
-cp -avf *.f profoil.inc temp/
+cp -avf *.f PROFOIL.INC temp/
 cd temp/
 pwd
 for FILE in `ls -1 *.f`;
@@ -25,7 +25,7 @@ done
 gfortran -o profoil *.o
 rm -vf *.o
 rm -vf *.f
-rm -vf *.inc
+rm -vf *.INC
 mv -vf profoil ../test
 cd ../
 pwd

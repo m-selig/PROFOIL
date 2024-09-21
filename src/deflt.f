@@ -73,6 +73,10 @@ C     if it falls on a coordinate point
       LVELF0 = FF
 C---- Eppler's max. t/c calculation default logical
       LTHICKE = FF
+C---- Method for mapped airfoil normalization (MSelig20240920):
+C     INORMMETHOD = 1 ... Legacy 3-pt parabola. Default.
+C     INORMMETHOD = 2 ... Cubic spline. Recommended setting.
+      INORMMETHOD = 1
 C---- no trailing edge thickness wedge
       LWEDGE = FF
 C---- flip airfoil over

@@ -1,12 +1,12 @@
 
       SUBROUTINE THICK
 C***********************************************************************
-C...Determine the airfoil thickness
+C...Determine the airfoil thickness and camber
 C
 C   Copyright (c) 1990-2022 Michael Selig
 C***********************************************************************
       INCLUDE 'PROFOIL.INC'
-C-----set initial us and ls indices
+C-----set initial us and ls indices (using IMAX from norm.f)
       JUS = IMAX - 1
       JLS = IMAX + 1
       THKMAX = 0.

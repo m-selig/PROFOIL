@@ -406,6 +406,10 @@ C---  track Negative N-values.
       ELSEIF (LINE(1:6) .EQ. 'NOECHO') THEN
 C---  do not echo out convergence history
         LECHO = FF
+      ELSEIF (LINE(1:20) .EQ. 'NORMALIZATION_METHOD') THEN
+C---  Normalization method used in norm.f
+        WRITE(TLINE, 1000) LINE(21:50)
+        READ(TLINE,*) INORMMETHOD
 C--------OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 C--------PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
       ELSEIF (LINE(1:5) .EQ. 'PAUSE') THEN

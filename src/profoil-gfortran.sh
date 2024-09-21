@@ -19,7 +19,6 @@ do
   gfortran -c $FILE
   if [ $? -ne 0 ]; then
     echo "Errors compiling " $FILE
-    exit
   fi
 done
 gfortran -o profoil *.o

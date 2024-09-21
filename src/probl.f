@@ -43,6 +43,11 @@ C     LHV     TT halve the interval
 C     LTR     TT transition has happened, used turbulent BL corrltns
 C     LTRII   TT transition on the current interval JBL to JBL+1
 C
+C     Ref:
+C     Eppler, Richard, "Practical Calculations of Laminar and Turbulent
+C     Bled-Off Boundary Layers," NASA TM-75328, Sept 1978
+C     https://ntrs.nasa.gov/citations/19780024110
+C     
 C     Copyright (c) 1990-2022 Michael Selig
 C***********************************************************************
       INCLUDE 'PROFOIL.INC'
@@ -95,9 +100,11 @@ C...  transition not fixed; laminar boundary layer on interval
         ENDIF
  200    CONTINUE
         IF (LHV) THEN
-C...  A test failed ---> halve step size
+C...  A test failed.
+C     See Eppler NASA TM-75328 reference in notes above.
+C     ---> halve step size
 C     ---> start over at the initial point
-C     ---> determine no of pts to end of interval
+C     ---> determine number of points to end of interval
           NHV = NHV + 1
           DXF = DXF/2.
           ISTP = 2 * (ISTP - JSTP)

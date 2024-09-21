@@ -286,7 +286,10 @@ C-----setup for call to BL subroutine
      $ INDX2(4),
      $ X_PHI(NARGP),
      $ Y_PHI(NARGP),
-     $ SX,
+     $ TMAP(NARGP),
+     $ AX(NARGP), BX(NARGP), CX(NARGP), DX(NARGP),
+     $ AY(NARGP), BY(NARGP), CY(NARGP), DY(NARGP),
+     $ SX
      $ SY
       COMMON/ NRM/
      $ XLE(4),
@@ -297,13 +300,15 @@ C-----setup for call to BL subroutine
      $ YTMP(NARGP),
      $ ALFA0,
      $ CHORD,
+     $ IMAX,
+     $ INORMMETHOD 
+      COMMON/ THKNSS/
      $ THKMAX,
      $ THKMAXE,
      $ XCMAXE,
      $ thkmaxg,
      $ XCMAX,
-     $ CMBMAX, 
-     $ IMAX
+     $ CMBMAX
       common/ gens/ xgensym(ngensym), ygensym(ngensym), fgensym, igensym
       COMMON/ SBS/
      $ SSDELV(NSPSEG,NSBSEG),
@@ -549,7 +554,7 @@ C     AMILE       AM(ILE) leading edge arc limit
 C     ARGPILE     argument of P if AM(ILE) does not fall on control point
 C     HPILE       P if AM(ILE) does not fall on control point
 C
-C     IMAX        index of RRMAX
+C     IMAX        index of RRMAX in norm.f.  Use in thick.f.
 C     XMAP(.)     mapped x airfoil coordinate
 C     YMAP(.)     mapped y airfoil coordinate
 C     XCRD(.)     normalized x airfoil coordinate

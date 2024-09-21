@@ -2,17 +2,17 @@
       PROGRAM PROFOIL
 
 C**********************************************************************
-C     PROFOIL    Version 2.0   March 2022
-C     
-C     Multi-Point Inverse
-C     Airfoil Design
-C     
-C     Copyright (c) 1990-2022 Michael Selig
-C     Copyright (c) 1995 Ashok Gopalarathnam
+C     PROFOIL    Version 2.1   September 2024         
+C     Multi-Point Inverse Airfoil Design              
+C     Copyright (c) 1990-2024   Michael Selig         
+C     Copyright (c) 1995   Ashok Gopalarathnam        
+C     MIT License                                     
+C     THE SOFTWARE IS PROVIDED "AS IS",               
+C     WITHOUT WARRANTY OF ANY KIND (see full license).
 C**********************************************************************
 
 C**********************************************************************
-C...  Read the input data from profoil.in
+C     Read the input data from the file profoil.in.
 C     ILINE is the current line number of the input file.
 C**********************************************************************
 
@@ -20,6 +20,9 @@ C**********************************************************************
       LOGICAL LGCL, LEND
  1000 FORMAT(A,'0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0')
  1005 FORMAT(2X,' Airfoil/Comment: ',A)
+C---- Write current version number to a file
+      OPEN (UNIT = 61, FILE = 'version.txt', status='unknown')
+      WRITE(61,*) "PROFOIL v2.1 September 2024 / MIT License"
 C-----set the constants
       CALL SETUP
 C-----set the default values

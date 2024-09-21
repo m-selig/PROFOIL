@@ -34,6 +34,7 @@ c     31
       LU50   = 50 
 c...  v-dist
       LU60   = 60
+c...  61 used in profoil.f for file: version.txt
       FILE60 = 'profoil.vel'
       LU70   = 70
       LU80   = 80

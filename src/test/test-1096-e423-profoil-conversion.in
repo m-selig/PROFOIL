@@ -1,0 +1,62 @@
+AIRFOIL test-1096-e423-profoil-conversion
+# Generated from "test-e423-eppler-to-profoil-conversion.in" and its output.
+
+#SKIP_UNKNOWN_WORDS
+
+COORD 60
+FOIL    16.40000    18.62533    1
+FOIL    18.40000     2.92533    2
+FOIL    20.40000     9.92533    3
+FOIL    21.50000    14.62533    4
+FOIL    23.50000    15.22533    5
+FOIL    25.50000    16.12533    6
+FOIL    27.50000    17.32533    7
+FOIL    29.50000    18.82533    8
+FOIL    31.50000    20.62533    9
+FOIL    34.72364    23.12533   10
+FOIL    36.50000     9.66425   11
+FOIL    38.50000    11.66425   12
+FOIL    40.50000    14.66425   13
+FOIL    45.50000    18.66425   14
+FOIL    50.50000    10.66425   15
+FOIL    55.00000     2.66425   16
+FOIL    60.00000     2.66425   17
+PHIS     5.00000    55.00000
+REC      0.38383     0.00000001
+VLEV     1           1.70640
+ILE     10
+
+
+# Use a cubic spline to find the maximum point for normalization to unit chord.
+NORMALIZATION_METHOD 2
+# Comment out next line if using this file as a starting point for a new design.
+ALFA0_BUMP 0.12
+
+TOLSPEC 0.00001
+ITERMAX 40
+NOECHO
+
+# spec KS
+NEWT1G0 100 1.0 1 10
+IDES
+
+# spec Cmo
+NEWT1G0 101 -0.26653  4 1 0.1
+IDES
+
+# spec t/c max
+NEWT1G0  107 .1234 6 300 .5 
+IDES
+
+
+
+
+FINISH 100
+ALFASP 2
+14
+18
+VELDIST 60
+DUMP
+
+*
+

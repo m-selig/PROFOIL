@@ -1,0 +1,82 @@
+AIRFOIL test-1095-e423-eppler-to-profoil-conversion
+# Conversion of Eppler's TRA data to a PROFOIL file.
+# Ref: Eppler, R, "Airfoil Design and Data", Springer-Verlag, 1990, p304, p554
+# If using this file for design, file "test-1095-e423-profoil-conversion.in" is a better starting point.
+
+#SKIP_UNKNOWN_WORDS
+
+COORD 60
+FOIL  16.4  18.7         16.4  18.7 
+FOIL  18.4   3            2     3 
+FOIL  20.4  10            2    10 
+FOIL  21.5  14.7          1.1  14.7 
+FOIL  23.5  15.3          2    15.3 
+FOIL  25.5  16.2          2    16.2 
+FOIL  27.5  17.4          2    17.4
+FOIL  29.5  18.9          2    18.9 
+FOIL  31.5  20.7          2    20.7 
+FOIL  34.72364   23.2     0    23.2 
+FOIL  36.5  10           36.5  10 
+FOIL  38.5  12            2    12 
+FOIL  40.5  15            2    15 
+FOIL  45.5  19            5    19 
+FOIL  50.5  11            5    11 
+FOIL  55     3       
+FOIL  60     3           60     3
+PHIS 5  55
+REC  1  0.00000001
+VLEV 1  1.2
+ILE 10
+
+
+# Use a cubic spline to find the maximum point for normalization to unit chord.
+NORMALIZATION_METHOD 2
+# Slightly rotate normalized airfoil to better match Eppler original airfoil.
+ALFA0_BUMP 0.12
+
+TOLSPEC 0.00001
+ITERMAX 40
+NOECHO
+
+# spec KS
+NEWT1G0 100 1.0 1 10
+IDES
+
+
+# spec mu u.s. and mu l.s.
+NEWT1G0 190 1.0   4   1  0.1
+NEWT1G0 191 0.0   6 100  0.5 
+IDES
+
+# spec omega u.s.
+NEWT1G0 194 .66   7   100  0.1
+IDES
+
+# spec t/c max
+NEWT1G0  107 .1234 6 200 .5 
+IDES
+
+
+#--------------------------------------------------
+# Evaluate moment and camber.  Do not iterate.
+TOLSPEC 100
+ITERMAX 0
+NOECHO
+NEWT1G0 101  0.0  4 1 0.1
+NEWT1G0 105  0.0  4 1 0.1
+IDES
+# Cmo    = -0.26653  ... from 101
+# camber =  0.10034  ... from 105
+# K upper = 0.38383  ... from converged dump file
+#--------------------------------------------------
+
+
+FINISH 100
+ALFASP 2
+14
+18
+VELDIST 60
+DUMP
+
+*
+

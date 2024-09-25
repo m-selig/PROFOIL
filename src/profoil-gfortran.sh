@@ -120,7 +120,7 @@ rm -vf profoil.dmp
 rm -vf profoil.vel
 rm -vf profoil.xy
 rm -vf profoil_out.txt
-rm -vg profoil_tra.txt
+rm -vf profoil_tra.txt
 rm -vf fort.20
 rm -vf fort.30
 rm -vf fort.50

@@ -37,6 +37,34 @@ C***********************************************************************
         DO  I = ILE+1, ISEG
           ALFAS(I) = ALFAS(I) + DELTA
         ENDDO
+      ELSEIF (ICASE .EQ. 500) THEN 
+        DO  I = 1, ILE
+          ALFAS(I) = ALFAS(I) + DELTA
+        ENDDO
+        ALFAS(1) = ALFAS(1) - DELTA
+      ELSEIF (ICASE .EQ. 600) THEN
+        DO  I = ILE+1, ISEG
+          ALFAS(I) = ALFAS(I) + DELTA
+        ENDDO
+        ALFAS(ISEG) = ALFAS(ISEG) - DELTA
+      ELSEIF (ICASE .EQ. 700) THEN
+        DO I = 1, ILE 
+          ALFAS(I) = ALFAS(I) + DELTA
+        ENDDO
+        ALFAS(1) = ALFAS(1) - DELTA
+        DO I = ILE+1, ISEG
+          ALFAS(I) = ALFAS(I) - DELTA
+        ENDDO
+        ALFAS(ISEG) = ALFAS(ISEG) + DELTA
+      ELSEIF (ICASE .EQ. 800) THEN
+        DO  I = 1, ILE 
+          ALFAS(I) = ALFAS(I) + DELTA
+        ENDDO
+        ALFAS(1) = ALFAS(1) - DELTA
+        DO  I = ILE+1, ISEG
+          ALFAS(I) = ALFAS(I) + DELTA
+        ENDDO
+        ALFAS(ISEG) = ALFAS(ISEG) - DELTA
       ELSE
         WRITE(LU06,*) ' WARNING: BUMPALFAS case not found (alfainc.f)'
       ENDIF

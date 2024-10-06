@@ -47,6 +47,10 @@ C     Ref:
 C     Eppler, Richard, "Practical Calculations of Laminar and Turbulent
 C     Bled-Off Boundary Layers," NASA TM-75328, Sept 1978
 C     https://ntrs.nasa.gov/citations/19780024110
+C     Boundary Layer integration tests are also included in:
+C     Miley, Stanley, "An Analysis of the Design of Airfoil Sections
+C     for Low Reynolds Numbers," PhD Dissertation, Mississippi State Univ,
+C     January 1972, p169-170.
 C     
 C     Copyright (c) 1990-2022 Michael Selig
 C***********************************************************************

@@ -42,8 +42,9 @@ C     should a offset in the TE point be desired.
       ENDIF
       FACTOR = 0.041666666666666666*DEL_PHI*DTOR
       IF (LTEZERO) THEN
-C...  Trailing edge is closed.
-C...  Otherwise TEY and/or TEX are specified by NEWT1* line
+C...    Trailing edge is closed, LTEZERO=TT.
+C...    Otherwise with LTEZERO=FF, then TEY, TEX, ... are specified by NEWT1G0 line(s)
+C...    with Newton iteration types: 155, 156, 157, and 158.
         DELSX = SX/FLOAT(IARGP-1)
         DELSY = SY/FLOAT(IARGP-1)
       ENDIF

@@ -59,6 +59,7 @@ C-------translate the LE point back
         YLE(4) = - XMAX * DSING(-THETA) + YMAX * DCOSG(-THETA)
 C-------rotate airfoil from zero lift angle of attack ALFA0
         ALFA0 = DATAN(YLE(4)/XLE(4)) * RTOD
+        ALFA0 = ALFA0 + ALFA0_BUMP
         CHORD = DSQRT(XLE(4)**2 + YLE(4)**2)
       ELSEIF (INORMMETHOD .EQ. 2) THEN
 C-------Use a cubic spline (natural cubic spline / second derivative is zero at the endpoints)
@@ -108,6 +109,7 @@ C       PAUSE
 
 C-------rotate airfoil from zero lift angle of attack ALFA0
         ALFA0 = DATAN(RMAXY/RMAXX) * RTOD
+        ALFA0 = ALFA0 + ALFA0_BUMP
         CHORD = DSQRT(RMAXX**2 + RMAXY**2)
         
       ENDIF

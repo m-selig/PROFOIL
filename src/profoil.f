@@ -2,7 +2,7 @@
       PROGRAM PROFOIL
 
 C**********************************************************************
-C     PROFOIL    Version 2.1   September 2024         
+C     PROFOIL    Version 4.2g  October 2024 / MIT License"
 C     Multi-Point Inverse Airfoil Design              
 C     Copyright (c) 1990-2024   Michael Selig         
 C     Copyright (c) 1995   Ashok Gopalarathnam        
@@ -22,7 +22,8 @@ C**********************************************************************
  1005 FORMAT(2X,' Airfoil/Comment: ',A)
 C---- Write current version number to a file
       OPEN (UNIT = 61, FILE = 'version.txt', status='unknown')
-      WRITE(61,*) "PROFOIL v2.1 September 2024 / MIT License"
+      WRITE(61,*) "PROFOIL v4.2g October 2024 / MIT License"
+
 C-----set the constants
       CALL SETUP
 C-----set the default values
@@ -56,8 +57,10 @@ C... Stuff that can be removed.
         call stoptst
       ELSEIF (LINE(1:1) .EQ. ' ') THEN
 C---  skip this line
+C--------********************************************
       ELSEIF (LINE(1:1) .EQ. '*') THEN
 C---  finished reading in data from input file unit LU10
+        WRITE(LU06,*)  "PROFOIL v4.2g October 2024 / MIT License"
         CLOSE(LU10)
         LEND = TT
 C--------AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -76,6 +79,9 @@ C     add number beyond alfas to alfas  (in FOIL line )
         WRITE(LU06,1005) LINE(9:50)
         WRITE(LU06,*) '  ********************************************'
         WRITE(LU06,*)
+      ELSEIF (LINE(1:10) .EQ. 'ALFA0_BUMP') THEN
+        WRITE(TLINE, 1000) LINE(11:50)
+        READ(TLINE,*) ALFA0_BUMP
       ELSEIF (LINE(1:6) .EQ. 'ALFASP') THEN
         WRITE(TLINE, 1000) LINE(7:50)
         READ(TLINE,*) IALF

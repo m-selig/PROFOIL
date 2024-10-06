@@ -14,7 +14,7 @@ C           2  solution from next iterations:    ITER > 1
       IF (ICASE .EQ. 0) THEN
          OPEN (UNIT=LU85,FILE=FILE85,STATUS='unknown')
          WRITE(LU85,1000)
- 1000    FORMAT(//8X,'PROFOIL    Version 2.0   March 2022' //
+ 1000    FORMAT(//8X,'PROFOIL    Version 4.2g   October 2024' //
      &            2X,'ITERATION 0'/)
       ELSE
          OPEN (UNIT=LU85,FILE=FILE85,STATUS='OLD',ACCESS='APPEND')

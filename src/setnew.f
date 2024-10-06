@@ -224,6 +224,34 @@ c...  scale factor to apply to all subsegments
             DO 242 I = ILE+1, ISEG
               ALFAS(I) = ALFAS(I) + DELTAJ
  242        CONTINUE
+          ELSEIF (ICASE .EQ. 5) THEN
+            DO 212 I = 1, ILE
+              ALFAS(I) = ALFAS(I) + DELTAJ
+ 212        CONTINUE
+            ALFAS(1) = ALFAS(1) - DELTAJ
+          ELSEIF (ICASE .EQ. 6) THEN
+            DO 222 I = ILE+1, ISEG
+              ALFAS(I) = ALFAS(I) + DELTAJ
+ 222        CONTINUE
+            ALFAS(ISEG) = ALFAS(ISEG) - DELTAJ
+          ELSEIF (ICASE .EQ. 7) THEN
+            DO 233 I = 1, ILE 
+              ALFAS(I) = ALFAS(I) + DELTAJ
+ 233        CONTINUE
+            ALFAS(1) = ALFAS(1) - DELTAJ
+            DO 234 I = ILE+1, ISEG
+              ALFAS(I) = ALFAS(I) - DELTAJ
+ 234        CONTINUE
+            ALFAS(ISEG) = ALFAS(ISEG) + DELTAJ
+          ELSEIF (ICASE .EQ. 8) THEN
+            DO 243 I = 1, ILE 
+              ALFAS(I) = ALFAS(I) + DELTAJ
+ 243        CONTINUE
+            ALFAS(1) = ALFAS(1) - DELTAJ
+            DO 244 I = ILE+1, ISEG
+              ALFAS(I) = ALFAS(I) + DELTAJ
+ 244        CONTINUE
+            ALFAS(ISEG) = ALFAS(ISEG) - DELTAJ
           ELSE
             WRITE(LU06,*) 'Error 202: ICASE not found (setnew.f)'
           ENDIF

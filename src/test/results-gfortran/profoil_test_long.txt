@@ -1,4 +1,4 @@
-Thu Nov 24 21:56:45 CST 2022
+Sat Oct 5 20:30:01 CDT 2024
 ************************************
 Running file: test-1000-four-seg.in
 ************************************
@@ -112,19 +112,20 @@ Output from file: test-1000-four-seg.in
    Airfoil/Comment: Different comment - EXAMPLE1 Four Segment 
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.708
-   ALFA0  =     -5.559
-   CM0    =    -0.1500
-   THKMAX =     11.21%
-   THKMAXE=     11.21%
-   CMBMAX =      3.60%
-   XCMAX  =     38.91%
-   XCMAXE =     38.91%
-   SX     =      0.013
-   SY     =     -0.019
+   POINTS =         60
+   ALFA_0 =     -5.559
+   CM_0   =    -0.1500
+   THKMAX =    11.213%
+   THKMAXE=    11.213%
+   CMBMAX =     3.596%
+   XCMAX  =    38.910%
+   XCMAXE =    38.910%
+   CHORD  = 3.708(MAP)
+   SX     =   0.013009
+   SY     =  -0.019065
    B0     =   0.004643
    A1     =   1.000253
    B1     =  -0.004694
@@ -501,19 +502,20 @@ Output from file: test-1005-thin-symmetrical.in
    Airfoil/Comment: test-1005-thin-symmetrical                
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.756
-   ALFA0  =      0.000
-   CM0    =     0.0000
-   THKMAX =      8.00%
-   THKMAXE=      8.00%
-   CMBMAX =      0.00%
-   XCMAX  =     18.38%
-   XCMAXE =     18.38%
-   SX     =     -0.000
-   SY     =      0.007
+   POINTS =         60
+   ALFA_0 =      0.000
+   CM_0   =     0.0000
+   THKMAX =     8.000%
+   THKMAXE=     8.000%
+   CMBMAX =     0.000%
+   XCMAX  =    18.383%
+   XCMAXE =    18.383%
+   CHORD  = 3.756(MAP)
+   SX     =  -0.000000
+   SY     =   0.006910
    B0     =  -0.000000
    A1     =   0.999948
    B1     =  -0.000000
@@ -982,19 +984,20 @@ Output from file: test-1010-delv.in
    Airfoil/Comment: DELV Example                              
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =        180
-   CHORD  =      3.617
-   ALFA0  =     -5.410
-   CM0    =    -0.1800
-   THKMAX =     15.00%
-   THKMAXE=     15.00%
-   CMBMAX =      2.71%
-   XCMAX  =     32.80%
-   XCMAXE =     32.80%
-   SX     =      0.008
-   SY     =      0.006
+   POINTS =        180
+   ALFA_0 =     -5.410
+   CM_0   =    -0.1800
+   THKMAX =    15.000%
+   THKMAXE=    15.000%
+   CMBMAX =     2.714%
+   XCMAX  =    32.803%
+   XCMAXE =    32.803%
+   CHORD  = 3.617(MAP)
+   SX     =   0.008255
+   SY     =   0.005573
    B0     =   0.000201
    A1     =   1.000017
    B1     =  -0.000200
@@ -1400,19 +1403,20 @@ Output from file: test-1030-many-segments-and-tra.in
    Airfoil/Comment:  test-1030 This airfoil has many segements
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.654
-   ALFA0  =     -3.534
-   CM0    =    -0.0911
-   THKMAX =     11.70%
-   THKMAXE=     11.70%
-   CMBMAX =      2.73%
-   XCMAX  =     37.64%
-   XCMAXE =     37.64%
-   SX     =      0.009
-   SY     =     -0.009
+   POINTS =         60
+   ALFA_0 =     -3.534
+   CM_0   =    -0.0911
+   THKMAX =    11.701%
+   THKMAXE=    11.701%
+   CMBMAX =     2.726%
+   XCMAX  =    37.637%
+   XCMAXE =    37.637%
+   CHORD  = 3.654(MAP)
+   SX     =   0.008626
+   SY     =  -0.009200
    B0     =   0.001345
    A1     =   1.000209
    B1     =  -0.001224
@@ -1950,19 +1954,20 @@ Output from file: test-1035-high-lift.in
    Airfoil/Comment: High Lift                                 
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.592
-   ALFA0  =    -13.862
-   CM0    =    -0.3500
-   THKMAX =     10.80%
-   THKMAXE=     10.80%
-   CMBMAX =     11.41%
-   XCMAX  =     25.34%
-   XCMAXE =     25.34%
-   SX     =     -0.002
-   SY     =      0.000
+   POINTS =         60
+   ALFA_0 =    -13.862
+   CM_0   =    -0.3500
+   THKMAX =    10.798%
+   THKMAXE=    10.798%
+   CMBMAX =    11.411%
+   XCMAX  =    25.341%
+   XCMAXE =    25.341%
+   CHORD  = 3.592(MAP)
+   SX     =  -0.001930
+   SY     =   0.000244
    B0     =  -0.001007
    A1     =   0.999384
    B1     =   0.000944
@@ -2422,19 +2427,20 @@ Output from file: test-1040-wind-turbine-root.in
    Airfoil/Comment:  WindTurbineRoot                          
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.370
-   ALFA0  =     -3.356
-   CM0    =    -0.1406
-   THKMAX =     27.00%
-   THKMAXE=     27.00%
-   CMBMAX =      2.09%
-   XCMAX  =     30.05%
-   XCMAXE =     30.05%
-   SX     =      0.012
-   SY     =      0.005
+   POINTS =         60
+   ALFA_0 =     -3.356
+   CM_0   =    -0.1406
+   THKMAX =    27.000%
+   THKMAXE=    27.000%
+   CMBMAX =     2.092%
+   XCMAX  =    30.047%
+   XCMAXE =    30.047%
+   CHORD  = 3.370(MAP)
+   SX     =   0.012499
+   SY     =   0.004963
    B0     =   0.001095
    A1     =   1.000071
    B1     =  -0.000925
@@ -2849,19 +2855,20 @@ Output from file: test-1050-sun.in
  *** --> profoil.dmp   ***
  *************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.616
-   ALFA0  =      0.000
-   CM0    =     0.0000
-   THKMAX =     13.20%
-   THKMAXE=     13.20%
-   CMBMAX =      0.00%
-   XCMAX  =     43.12%
-   XCMAXE =     43.12%
-   SX     =     -0.000
-   SY     =      0.010
+   POINTS =         60
+   ALFA_0 =      0.000
+   CM_0   =     0.0000
+   THKMAX =    13.200%
+   THKMAXE=    13.200%
+   CMBMAX =     0.000%
+   XCMAX  =    43.124%
+   XCMAXE =    43.124%
+   CHORD  = 3.616(MAP)
+   SX     =  -0.000000
+   SY     =   0.009789
    B0     =  -0.000000
    A1     =   0.999932
    B1     =  -0.000000
@@ -3165,19 +3172,20 @@ Output from file: test-1055.in
    Airfoil/Comment:  test-1055                                
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.509
-   ALFA0  =     -5.603
-   CM0    =    -0.1400
-   THKMAX =     18.22%
-   THKMAXE=     18.22%
-   CMBMAX =      3.89%
-   XCMAX  =     35.12%
-   XCMAXE =     35.12%
-   SX     =     -0.005
-   SY     =     -0.014
+   POINTS =         60
+   ALFA_0 =     -5.603
+   CM_0   =    -0.1400
+   THKMAX =    18.220%
+   THKMAXE=    18.220%
+   CMBMAX =     3.889%
+   XCMAX  =    35.118%
+   XCMAXE =    35.118%
+   CHORD  = 3.509(MAP)
+   SX     =  -0.004791
+   SY     =  -0.013973
    B0     =  -0.001073
    A1     =   0.999818
    B1     =   0.001042
@@ -3510,19 +3518,20 @@ Output from file: test-1060.in
    Airfoil/Comment:  test-1060                                
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =        120
-   CHORD  =      3.496
-   ALFA0  =     -6.350
-   CM0    =    -0.1400
-   THKMAX =     18.22%
-   THKMAXE=     18.22%
-   CMBMAX =      5.72%
-   XCMAX  =     32.28%
-   XCMAXE =     32.28%
-   SX     =     -0.008
-   SY     =     -0.001
+   POINTS =        120
+   ALFA_0 =     -6.350
+   CM_0   =    -0.1400
+   THKMAX =    18.220%
+   THKMAXE=    18.220%
+   CMBMAX =     5.719%
+   XCMAX  =    32.283%
+   XCMAXE =    32.283%
+   CHORD  = 3.496(MAP)
+   SX     =  -0.007904
+   SY     =  -0.001304
    B0     =  -0.000362
    A1     =   0.999906
    B1     =   0.000320
@@ -3886,19 +3895,20 @@ Output from file: test-1065-concave-recovery.in
    Airfoil/Comment: Low moment concave recovery               
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =        240
-   CHORD  =      3.556
-   ALFA0  =     -1.431
-   CM0    =     0.0200
-   THKMAX =     16.98%
-   THKMAXE=     16.98%
-   CMBMAX =      5.21%
-   XCMAX  =     22.69%
-   XCMAXE =     22.69%
-   SX     =     -0.001
-   SY     =     -0.002
+   POINTS =        240
+   ALFA_0 =     -1.431
+   CM_0   =     0.0200
+   THKMAX =    16.981%
+   THKMAXE=    16.981%
+   CMBMAX =     5.211%
+   XCMAX  =    22.690%
+   XCMAXE =    22.690%
+   CHORD  = 3.556(MAP)
+   SX     =  -0.000670
+   SY     =  -0.002238
    B0     =   0.000038
    A1     =   0.999998
    B1     =  -0.000029
@@ -4515,19 +4525,20 @@ Output from file: test-1075.in
  *** --> profoil.dmp   ***
  *************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.652
-   ALFA0  =     -8.615
-   CM0    =    -0.2300
-   THKMAX =     12.00%
-   THKMAXE=     12.00%
-   CMBMAX =      5.89%
-   XCMAX  =     28.67%
-   XCMAXE =     28.67%
-   SX     =     -0.002
-   SY     =      0.000
+   POINTS =         60
+   ALFA_0 =     -8.615
+   CM_0   =    -0.2300
+   THKMAX =    12.000%
+   THKMAXE=    12.000%
+   CMBMAX =     5.895%
+   XCMAX  =    28.675%
+   XCMAXE =    28.675%
+   CHORD  = 3.652(MAP)
+   SX     =  -0.001882
+   SY     =   0.000300
    B0     =  -0.001388
    A1     =   0.999731
    B1     =   0.001391
@@ -4901,19 +4912,20 @@ Output from file: test-1080-reflex.in
  *** --> profoil.dmp   ***
  *************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.734
-   ALFA0  =      0.584
-   CM0    =     0.0500
-   THKMAX =      9.00%
-   THKMAXE=      9.00%
-   CMBMAX =      2.92%
-   XCMAX  =     31.87%
-   XCMAXE =     31.87%
-   SX     =      0.003
-   SY     =     -0.009
+   POINTS =         60
+   ALFA_0 =      0.584
+   CM_0   =     0.0500
+   THKMAX =     9.000%
+   THKMAXE=     9.000%
+   CMBMAX =     2.916%
+   XCMAX  =    31.865%
+   XCMAXE =    31.865%
+   CHORD  = 3.734(MAP)
+   SX     =   0.003171
+   SY     =  -0.008940
    B0     =   0.001575
    A1     =   1.000123
    B1     =  -0.001517
@@ -5181,19 +5193,20 @@ Output from file: test-1093-like-7003.in
    Airfoil/Comment:  SD7003-LIKE                              
    ********************************************
 
+ PROFOIL v4.2g October 2024 / MIT License
 
    **** STATISTICS ****
-   IARGP  =         60
-   CHORD  =      3.747
-   ALFA0  =     -1.878
-   CM0    =    -0.0467
-   THKMAX =      8.37%
-   THKMAXE=      8.37%
-   CMBMAX =      1.50%
-   XCMAX  =     24.19%
-   XCMAXE =     24.19%
-   SX     =     -0.006
-   SY     =      0.008
+   POINTS =         60
+   ALFA_0 =     -1.878
+   CM_0   =    -0.0467
+   THKMAX =     8.372%
+   THKMAXE=     8.372%
+   CMBMAX =     1.504%
+   XCMAX  =    24.186%
+   XCMAXE =    24.186%
+   CHORD  = 3.747(MAP)
+   SX     =  -0.005923
+   SY     =   0.008150
    B0     =  -0.000300
    A1     =   0.999908
    B1     =   0.000293
@@ -5297,5 +5310,1069 @@ Coordinates: test-1093-like-7003.in
        0.97137     0.00087
        0.98720     0.00052
        0.99679     0.00017
+       1.00000     0.00000
+ 
+************************************
+Running file: test-1095-e423-eppler-to-profoil-conversion.in
+************************************
+ 
+     1	AIRFOIL test-1095-e423-eppler-to-profoil-conversion
+     2	# Conversion of Eppler's TRA data to a PROFOIL file.
+     3	# Ref: Eppler, R, "Airfoil Design and Data", Springer-Verlag, 1990, p304, p554
+     4	# If using this file for design, file "test-1095-e423-profoil-conversion.in" is a better starting point.
+     5	
+     6	#SKIP_UNKNOWN_WORDS
+     7	
+     8	COORD 60
+     9	FOIL  16.4  18.7         16.4  18.7 
+    10	FOIL  18.4   3            2     3 
+    11	FOIL  20.4  10            2    10 
+    12	FOIL  21.5  14.7          1.1  14.7 
+    13	FOIL  23.5  15.3          2    15.3 
+    14	FOIL  25.5  16.2          2    16.2 
+    15	FOIL  27.5  17.4          2    17.4
+    16	FOIL  29.5  18.9          2    18.9 
+    17	FOIL  31.5  20.7          2    20.7 
+    18	FOIL  34.72364   23.2     0    23.2 
+    19	FOIL  36.5  10           36.5  10 
+    20	FOIL  38.5  12            2    12 
+    21	FOIL  40.5  15            2    15 
+    22	FOIL  45.5  19            5    19 
+    23	FOIL  50.5  11            5    11 
+    24	FOIL  55     3       
+    25	FOIL  60     3           60     3
+    26	PHIS 5  55
+    27	REC  1  0.00000001
+    28	VLEV 1  1.2
+    29	ILE 10
+    30	
+    31	
+    32	# Use a cubic spline to find the maximum point for normalization to unit chord.
+    33	NORMALIZATION_METHOD 2
+    34	# Slightly rotate normalized airfoil to better match Eppler original airfoil.
+    35	ALFA0_BUMP 0.12
+    36	
+    37	TOLSPEC 0.00001
+    38	ITERMAX 40
+    39	NOECHO
+    40	
+    41	# spec KS
+    42	NEWT1G0 100 1.0 1 10
+    43	IDES
+    44	
+    45	
+    46	# spec mu u.s. and mu l.s.
+    47	NEWT1G0 190 1.0   4   1  0.1
+    48	NEWT1G0 191 0.0   6 100  0.5 
+    49	IDES
+    50	
+    51	# spec omega u.s.
+    52	NEWT1G0 194 .66   7   100  0.1
+    53	IDES
+    54	
+    55	# spec t/c max
+    56	NEWT1G0  107 .1234 6 200 .5 
+    57	IDES
+    58	
+    59	
+    60	#--------------------------------------------------
+    61	# Evaluate moment and camber.  Do not iterate.
+    62	TOLSPEC 100
+    63	ITERMAX 0
+    64	NOECHO
+    65	NEWT1G0 101  0.0  4 1 0.1
+    66	NEWT1G0 105  0.0  4 1 0.1
+    67	IDES
+    68	# Cmo    = -0.26653  ... from 101
+    69	# camber =  0.10034  ... from 105
+    70	# K upper = 0.38383  ... from converged dump file
+    71	#--------------------------------------------------
+    72	
+    73	
+    74	FINISH 100
+    75	ALFASP 2
+    76	14
+    77	18
+    78	VELDIST 60
+    79	DUMP
+    80	
+    81	*
+    82	
+ 
+************************************
+Output from file: test-1095-e423-eppler-to-profoil-conversion.in
+************************************
+
+   ********************************************
+   Airfoil/Comment: test-1095-e423-eppler-to-profoil-conversio
+   ********************************************
+
+   ==========================================
+   Initial airfoil design for stage:  1
+   ==========================================
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.773       -0.218  -11.036  -11.553    0.518    1.000  -22.589
+   Difference in the design variables:
+     fnt1_0( 1) =  -23.58923  value1() =  -22.58923
+   RMS error  =   23.58922995    Iteration =    0
+   Iteration   1
+   Calculating partials for airfoil design parameter:   1
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.696       -0.106    0.871   -1.508    1.809    1.000   -0.636
+   Difference in the design variables:
+     fnt1_1( 1) =   -1.63618  value1() =   -0.63618  deltas() =  2.55962
+   RMS error  =    1.63617650    Iteration =    1
+   Iteration   2
+   Calculating partials for airfoil design parameter:   1
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.805       -0.098    1.756   -0.761    1.985    1.000    0.995
+   Difference in the design variables:
+     fnt1_1( 1) =   -0.00531  value1() =    0.99469  deltas() =  0.20207
+   RMS error  =    0.00531004    Iteration =    2
+   Iteration   3
+   Calculating partials for airfoil design parameter:   1
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.806       -0.098    1.759   -0.759    1.985    1.000    1.000
+   Difference in the design variables:
+     fnt1_1( 1) =   -0.00000  value1() =    1.00000  deltas() =  0.00066
+   RMS error  =    0.00000006    Iteration =    3
+
+   ==========================================
+   Initial airfoil design for stage:  2
+   ==========================================
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.806       -0.098    1.759   -0.759    1.985    1.000    1.000
+   Difference in the design variables:
+     fnt1_0( 1) =   -0.00000  value1() =    1.00000
+     fnt1_0( 2) =   -1.80579  value1() =   -0.80579
+     fnt1_0( 3) =   -0.09769  value1() =   -0.09769
+   RMS error  =    1.04409691    Iteration =    0
+   Iteration   1
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.673       -0.090    1.691   -0.671    1.774    1.000    1.020
+   Difference in the design variables:
+     fnt1_1( 1) =    0.02007  value1() =    1.02007  deltas() =  0.20874
+     fnt1_1( 2) =   -1.67337  value1() =   -0.67337  deltas() =  0.05558  clamp1() = 0.100
+     fnt1_1( 3) =   -0.09038  value1() =   -0.09038  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.96759914    Iteration =    1
+   Iteration   2
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.544       -0.083    1.624   -0.587    1.589    1.000    1.037
+   Difference in the design variables:
+     fnt1_1( 1) =    0.03683  value1() =    1.03683  deltas() =  0.19847
+     fnt1_1( 2) =   -1.54444  value1() =   -0.54444  deltas() =  0.05650  clamp1() = 0.100
+     fnt1_1( 3) =   -0.08329  value1() =   -0.08329  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.89323035    Iteration =    2
+   Iteration   3
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.419       -0.076    1.558   -0.507    1.428    1.000    1.051
+   Difference in the design variables:
+     fnt1_1( 1) =    0.05054  value1() =    1.05054  deltas() =  0.18863
+     fnt1_1( 2) =   -1.41880  value1() =   -0.41880  deltas() =  0.05741  clamp1() = 0.100
+     fnt1_1( 3) =   -0.07640  value1() =   -0.07640  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.82084777    Iteration =    3
+   Iteration   4
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.296       -0.070    1.492   -0.431    1.287    1.000    1.061
+   Difference in the design variables:
+     fnt1_1( 1) =    0.06145  value1() =    1.06145  deltas() =  0.17918
+     fnt1_1( 2) =   -1.29627  value1() =   -0.29627  deltas() =  0.05830  clamp1() = 0.100
+     fnt1_1( 3) =   -0.06969  value1() =   -0.06969  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.75032085    Iteration =    4
+   Iteration   5
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.177       -0.063    1.427   -0.357    1.162    1.000    1.070
+   Difference in the design variables:
+     fnt1_1( 1) =    0.06977  value1() =    1.06977  deltas() =  0.17011
+     fnt1_1( 2) =   -1.17669  value1() =   -0.17669  deltas() =  0.05919  clamp1() = 0.100
+     fnt1_1( 3) =   -0.06317  value1() =   -0.06317  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.68152932    Iteration =    5
+   Iteration   6
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+         -0.060       -0.057    1.363   -0.287    1.052    1.000    1.076
+   Difference in the design variables:
+     fnt1_1( 1) =    0.07567  value1() =    1.07567  deltas() =  0.16139
+     fnt1_1( 2) =   -1.05989  value1() =   -0.05989  deltas() =  0.06006  clamp1() = 0.100
+     fnt1_1( 3) =   -0.05681  value1() =   -0.05681  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.61436160    Iteration =    6
+   Iteration   7
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.054       -0.051    1.299   -0.219    0.955    1.000    1.079
+   Difference in the design variables:
+     fnt1_1( 1) =    0.07928  value1() =    1.07928  deltas() =  0.15301
+     fnt1_1( 2) =   -0.94573  value1() =    0.05427  deltas() =  0.06092  clamp1() = 0.100
+     fnt1_1( 3) =   -0.05061  value1() =   -0.05061  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.54871326    Iteration =    7
+   Iteration   8
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.166       -0.045    1.235   -0.155    0.868    1.000    1.081
+   Difference in the design variables:
+     fnt1_1( 1) =    0.08073  value1() =    1.08073  deltas() =  0.14493
+     fnt1_1( 2) =   -0.83407  value1() =    0.16593  deltas() =  0.06177  clamp1() = 0.100
+     fnt1_1( 3) =   -0.04457  value1() =   -0.04457  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.48448545    Iteration =    8
+   Iteration   9
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.275       -0.039    1.173   -0.093    0.791    1.000    1.080
+   Difference in the design variables:
+     fnt1_1( 1) =    0.08008  value1() =    1.08008  deltas() =  0.13714
+     fnt1_1( 2) =   -0.72477  value1() =    0.27523  deltas() =  0.06262  clamp1() = 0.100
+     fnt1_1( 3) =   -0.03866  value1() =   -0.03866  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.42158330    Iteration =    9
+   Iteration  10
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.382       -0.033    1.110   -0.033    0.722    1.000    1.077
+   Difference in the design variables:
+     fnt1_1( 1) =    0.07737  value1() =    1.07737  deltas() =  0.12961
+     fnt1_1( 2) =   -0.61769  value1() =    0.38231  deltas() =  0.06347  clamp1() = 0.100
+     fnt1_1( 3) =   -0.03289  value1() =   -0.03289  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.35991395    Iteration =   10
+   Iteration  11
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.487       -0.027    1.048    0.024    0.661    1.000    1.073
+   Difference in the design variables:
+     fnt1_1( 1) =    0.07261  value1() =    1.07261  deltas() =  0.12231
+     fnt1_1( 2) =   -0.51271  value1() =    0.48729  deltas() =  0.06431  clamp1() = 0.100
+     fnt1_1( 3) =   -0.02725  value1() =   -0.02725  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.29938376    Iteration =   11
+   Iteration  12
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.590       -0.022    0.987    0.079    0.605    1.000    1.066
+   Difference in the design variables:
+     fnt1_1( 1) =    0.06574  value1() =    1.06574  deltas() =  0.11521
+     fnt1_1( 2) =   -0.40970  value1() =    0.59030  deltas() =  0.06515  clamp1() = 0.100
+     fnt1_1( 3) =   -0.02172  value1() =   -0.02172  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.23989408    Iteration =   12
+   Iteration  13
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.691       -0.016    0.925    0.132    0.555    1.000    1.057
+   Difference in the design variables:
+     fnt1_1( 1) =    0.05658  value1() =    1.05658  deltas() =  0.10824
+     fnt1_1( 2) =   -0.30851  value1() =    0.69149  deltas() =  0.06601  clamp1() = 0.100
+     fnt1_1( 3) =   -0.01631  value1() =   -0.01631  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.18133330    Iteration =   13
+   Iteration  14
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.791       -0.011    0.863    0.182    0.510    1.000    1.045
+   Difference in the design variables:
+     fnt1_1( 1) =    0.04482  value1() =    1.04482  deltas() =  0.10132
+     fnt1_1( 2) =   -0.20898  value1() =    0.79102  deltas() =  0.06689  clamp1() = 0.100
+     fnt1_1( 3) =   -0.01101  value1() =   -0.01101  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.12355961    Iteration =   14
+   Iteration  15
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.889       -0.006    0.800    0.229    0.469    1.000    1.030
+   Difference in the design variables:
+     fnt1_1( 1) =    0.02969  value1() =    1.02969  deltas() =  0.09423
+     fnt1_1( 2) =   -0.11088  value1() =    0.88912  deltas() =  0.06781  clamp1() = 0.100
+     fnt1_1( 3) =   -0.00581  value1() =   -0.00581  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.06635481    Iteration =   15
+   Iteration  16
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.986       -0.001    0.735    0.274    0.432    1.000    1.009
+   Difference in the design variables:
+     fnt1_1( 1) =    0.00899  value1() =    1.00899  deltas() =  0.08626
+     fnt1_1( 2) =   -0.01373  value1() =    0.98627  deltas() =  0.06889  clamp1() = 0.100
+     fnt1_1( 3) =   -0.00069  value1() =   -0.00069  deltas() =  0.50000  clamp1() = 0.500
+   RMS error  =    0.00948183    Iteration =   16
+   Iteration  17
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000       -0.000    0.723    0.277    0.427    1.000    1.000
+   Difference in the design variables:
+     fnt1_1( 1) =    0.00009  value1() =    1.00009  deltas() =  0.00792
+     fnt1_1( 2) =   -0.00004  value1() =    0.99996  deltas() =  0.00950  clamp1() = 0.100
+     fnt1_1( 3) =   -0.00000  value1() =   -0.00000  deltas() =  0.06549  clamp1() = 0.500
+   RMS error  =    0.00005418    Iteration =   17
+   Iteration  18
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000       -0.000    0.723    0.277    0.427    1.000    1.000
+   Difference in the design variables:
+     fnt1_1( 1) =    0.00000  value1() =    1.00000  deltas() = -0.00004
+     fnt1_1( 2) =   -0.00000  value1() =    1.00000  deltas() =  0.00002  clamp1() = 0.100
+     fnt1_1( 3) =   -0.00000  value1() =   -0.00000  deltas() =  0.00008  clamp1() = 0.500
+   RMS error  =    0.00000000    Iteration =   18
+
+   ==========================================
+   Initial airfoil design for stage:  3
+   ==========================================
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000       -0.000    0.723    0.277    0.427    1.000    1.000
+   Difference in the design variables:
+     fnt1_0( 1) =    0.00000  value1() =    1.00000
+     fnt1_0( 2) =   -0.00000  value1() =    1.00000
+     fnt1_0( 3) =   -0.00000  value1() =   -0.00000
+     fnt1_0( 4) =    0.51177  value1() =    1.00000
+   RMS error  =    0.25588601    Iteration =    0
+   Iteration   1
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000        0.000    0.738    0.271    0.438    1.000    1.009
+   Difference in the design variables:
+     fnt1_1( 1) =    0.00903  value1() =    1.00903  deltas() = -0.25651
+     fnt1_1( 2) =   -0.00043  value1() =    0.99957  deltas() = -0.03026  clamp1() = 0.100
+     fnt1_1( 3) =    0.00006  value1() =    0.00006  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.49713  value1() =    0.99957  deltas() = -0.04152  clamp1() = 0.100
+   RMS error  =    0.24860665    Iteration =    1
+   Iteration   2
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.999        0.000    0.753    0.265    0.449    1.000    1.018
+   Difference in the design variables:
+     fnt1_1( 1) =    0.01812  value1() =    1.01812  deltas() = -0.25913
+     fnt1_1( 2) =   -0.00088  value1() =    0.99912  deltas() = -0.03042  clamp1() = 0.100
+     fnt1_1( 3) =    0.00011  value1() =    0.00011  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.48132  value1() =    0.99912  deltas() = -0.04128  clamp1() = 0.100
+   RMS error  =    0.24083138    Iteration =    2
+   Iteration   3
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.999        0.000    0.769    0.258    0.460    1.000    1.027
+   Difference in the design variables:
+     fnt1_1( 1) =    0.02722  value1() =    1.02722  deltas() = -0.26181
+     fnt1_1( 2) =   -0.00136  value1() =    0.99864  deltas() = -0.03057  clamp1() = 0.100
+     fnt1_1( 3) =    0.00017  value1() =    0.00017  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.46419  value1() =    0.99864  deltas() = -0.04104  clamp1() = 0.100
+   RMS error  =    0.23249593    Iteration =    3
+   Iteration   4
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.998        0.000    0.785    0.251    0.472    1.000    1.036
+   Difference in the design variables:
+     fnt1_1( 1) =    0.03628  value1() =    1.03628  deltas() = -0.26456
+     fnt1_1( 2) =   -0.00186  value1() =    0.99814  deltas() = -0.03073  clamp1() = 0.100
+     fnt1_1( 3) =    0.00022  value1() =    0.00022  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.44557  value1() =    0.99814  deltas() = -0.04081  clamp1() = 0.100
+   RMS error  =    0.22352367    Iteration =    4
+   Iteration   5
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.998        0.000    0.801    0.244    0.485    1.000    1.045
+   Difference in the design variables:
+     fnt1_1( 1) =    0.04521  value1() =    1.04521  deltas() = -0.26737
+     fnt1_1( 2) =   -0.00239  value1() =    0.99761  deltas() = -0.03088  clamp1() = 0.100
+     fnt1_1( 3) =    0.00027  value1() =    0.00027  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.42524  value1() =    0.99761  deltas() = -0.04058  clamp1() = 0.100
+   RMS error  =    0.21382242    Iteration =    5
+   Iteration   6
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.997        0.000    0.818    0.236    0.498    1.000    1.054
+   Difference in the design variables:
+     fnt1_1( 1) =    0.05389  value1() =    1.05389  deltas() = -0.27025
+     fnt1_1( 2) =   -0.00294  value1() =    0.99706  deltas() = -0.03104  clamp1() = 0.100
+     fnt1_1( 3) =    0.00032  value1() =    0.00032  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.40296  value1() =    0.99706  deltas() = -0.04035  clamp1() = 0.100
+   RMS error  =    0.20328025    Iteration =    6
+   Iteration   7
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.996        0.000    0.835    0.227    0.512    1.000    1.062
+   Difference in the design variables:
+     fnt1_1( 1) =    0.06216  value1() =    1.06216  deltas() = -0.27321
+     fnt1_1( 2) =   -0.00351  value1() =    0.99649  deltas() = -0.03119  clamp1() = 0.100
+     fnt1_1( 3) =    0.00037  value1() =    0.00037  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.37843  value1() =    0.99649  deltas() = -0.04011  clamp1() = 0.100
+   RMS error  =    0.19175982    Iteration =    7
+   Iteration   8
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.996        0.000    0.852    0.218    0.526    1.000    1.070
+   Difference in the design variables:
+     fnt1_1( 1) =    0.06980  value1() =    1.06980  deltas() = -0.27625
+     fnt1_1( 2) =   -0.00408  value1() =    0.99592  deltas() = -0.03134  clamp1() = 0.100
+     fnt1_1( 3) =    0.00042  value1() =    0.00042  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.35129  value1() =    0.99592  deltas() = -0.03988  clamp1() = 0.100
+   RMS error  =    0.17909063    Iteration =    8
+   Iteration   9
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.995        0.000    0.870    0.207    0.542    1.000    1.077
+   Difference in the design variables:
+     fnt1_1( 1) =    0.07651  value1() =    1.07651  deltas() = -0.27938
+     fnt1_1( 2) =   -0.00465  value1() =    0.99535  deltas() = -0.03149  clamp1() = 0.100
+     fnt1_1( 3) =    0.00046  value1() =    0.00046  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.32109  value1() =    0.99535  deltas() = -0.03964  clamp1() = 0.100
+   RMS error  =    0.16505826    Iteration =    9
+   Iteration  10
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.995        0.000    0.887    0.195    0.558    1.000    1.082
+   Difference in the design variables:
+     fnt1_1( 1) =    0.08185  value1() =    1.08185  deltas() = -0.28261
+     fnt1_1( 2) =   -0.00519  value1() =    0.99481  deltas() = -0.03164  clamp1() = 0.100
+     fnt1_1( 3) =    0.00048  value1() =    0.00048  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.28730  value1() =    0.99481  deltas() = -0.03940  clamp1() = 0.100
+   RMS error  =    0.14938882    Iteration =   10
+   Iteration  11
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.994        0.001    0.903    0.182    0.574    1.000    1.085
+   Difference in the design variables:
+     fnt1_1( 1) =    0.08516  value1() =    1.08516  deltas() = -0.28595
+     fnt1_1( 2) =   -0.00564  value1() =    0.99436  deltas() = -0.03179  clamp1() = 0.100
+     fnt1_1( 3) =    0.00050  value1() =    0.00050  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.24924  value1() =    0.99436  deltas() = -0.03914  clamp1() = 0.100
+   RMS error  =    0.13172597    Iteration =   11
+   Iteration  12
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.994        0.001    0.919    0.167    0.592    1.000    1.085
+   Difference in the design variables:
+     fnt1_1( 1) =    0.08547  value1() =    1.08547  deltas() = -0.28944
+     fnt1_1( 2) =   -0.00595  value1() =    0.99405  deltas() = -0.03194  clamp1() = 0.100
+     fnt1_1( 3) =    0.00050  value1() =    0.00050  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.20609  value1() =    0.99405  deltas() = -0.03887  clamp1() = 0.100
+   RMS error  =    0.11159475    Iteration =   12
+   Iteration  13
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.994        0.000    0.933    0.149    0.611    1.000    1.081
+   Difference in the design variables:
+     fnt1_1( 1) =    0.08118  value1() =    1.08118  deltas() = -0.29312
+     fnt1_1( 2) =   -0.00599  value1() =    0.99401  deltas() = -0.03210  clamp1() = 0.100
+     fnt1_1( 3) =    0.00047  value1() =    0.00047  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.15681  value1() =    0.99401  deltas() = -0.03856  clamp1() = 0.100
+   RMS error  =    0.08833993    Iteration =   13
+   Iteration  14
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.995        0.000    0.943    0.126    0.630    1.000    1.069
+   Difference in the design variables:
+     fnt1_1( 1) =    0.06941  value1() =    1.06941  deltas() = -0.29711
+     fnt1_1( 2) =   -0.00548  value1() =    0.99452  deltas() = -0.03226  clamp1() = 0.100
+     fnt1_1( 3) =    0.00040  value1() =    0.00040  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.10019  value1() =    0.99452  deltas() = -0.03820  clamp1() = 0.100
+   RMS error  =    0.06100496    Iteration =   14
+   Iteration  15
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          0.996        0.000    0.947    0.097    0.650    1.000    1.044
+   Difference in the design variables:
+     fnt1_1( 1) =    0.04385  value1() =    1.04385  deltas() = -0.30170
+     fnt1_1( 2) =   -0.00379  value1() =    0.99621  deltas() = -0.03246  clamp1() = 0.100
+     fnt1_1( 3) =    0.00025  value1() =    0.00025  deltas() = -0.50000  clamp1() = 0.500
+     fnt1_1( 4) =    0.03499  value1() =    0.99621  deltas() = -0.03772  clamp1() = 0.100
+   RMS error  =    0.02811123    Iteration =   15
+   Iteration  16
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000        0.000    0.935    0.069    0.661    1.000    1.004
+   Difference in the design variables:
+     fnt1_1( 1) =    0.00400  value1() =    1.00400  deltas() = -0.16747
+     fnt1_1( 2) =   -0.00039  value1() =    0.99961  deltas() = -0.01776  clamp1() = 0.100
+     fnt1_1( 3) =    0.00002  value1() =    0.00002  deltas() = -0.27111  clamp1() = 0.500
+     fnt1_1( 4) =   -0.00228  value1() =    0.99961  deltas() = -0.01997  clamp1() = 0.100
+   RMS error  =    0.00230993    Iteration =   16
+   Iteration  17
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000        0.000    0.933    0.067    0.660    1.000    1.000
+   Difference in the design variables:
+     fnt1_1( 1) =    0.00001  value1() =    1.00001  deltas() =  0.00626
+     fnt1_1( 2) =    0.00000  value1() =    1.00000  deltas() =  0.00070  clamp1() = 0.100
+     fnt1_1( 3) =    0.00000  value1() =    0.00000  deltas() =  0.01100  clamp1() = 0.500
+     fnt1_1( 4) =   -0.00001  value1() =    1.00000  deltas() =  0.00088  clamp1() = 0.100
+   RMS error  =    0.00000821    Iteration =   17
+
+   ==========================================
+   Initial airfoil design for stage:  4
+   ==========================================
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000        0.000    0.933    0.067    0.660    1.000    1.000
+   Difference in the design variables:
+     fnt1_0( 1) =    0.00001  value1() =    1.00001
+     fnt1_0( 2) =    0.00000  value1() =    1.00000
+     fnt1_0( 3) =    0.00000  value1() =    0.00000
+     fnt1_0( 4) =   -0.00001  value1() =    1.00000
+     fnt1_0( 5) =   -0.00084  value1() =    0.12256
+   RMS error  =    0.00037507    Iteration =    0
+   Iteration   1
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Calculating partials for airfoil design parameter:   5
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.004       -0.000    0.900    0.076    0.659    1.000    0.976
+   Difference in the design variables:
+     fnt1_1( 1) =   -0.02399  value1() =    0.97601  deltas() = -0.69283
+     fnt1_1( 2) =    0.00355  value1() =    1.00355  deltas() = -0.00999  clamp1() = 0.100
+     fnt1_1( 3) =   -0.00011  value1() =   -0.00011  deltas() = -0.35065  clamp1() = 0.500
+     fnt1_1( 4) =    0.00355  value1() =    1.00355  deltas() =  0.00000  clamp1() = 0.100
+     fnt1_1( 5) =   -0.00034  value1() =    0.12306  deltas() = -0.30871  clamp1() = 0.500
+   RMS error  =    0.01095956    Iteration =    1
+   Iteration   2
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Calculating partials for airfoil design parameter:   5
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000       -0.000    0.911    0.089    0.660    1.000    1.000
+   Difference in the design variables:
+     fnt1_1( 1) =   -0.00011  value1() =    0.99989  deltas() = -0.05422
+     fnt1_1( 2) =    0.00002  value1() =    1.00002  deltas() = -0.00083  clamp1() = 0.100
+     fnt1_1( 3) =   -0.00000  value1() =   -0.00000  deltas() = -0.02831  clamp1() = 0.500
+     fnt1_1( 4) =    0.00002  value1() =    1.00002  deltas() =  0.00000  clamp1() = 0.100
+     fnt1_1( 5) =   -0.00000  value1() =    0.12340  deltas() = -0.02599  clamp1() = 0.500
+   RMS error  =    0.00005083    Iteration =    2
+   Iteration   3
+   Calculating partials for airfoil design parameter:   1
+   Calculating partials for airfoil design parameter:   2
+   Calculating partials for airfoil design parameter:   3
+   Calculating partials for airfoil design parameter:   4
+   Calculating partials for airfoil design parameter:   5
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000        0.000    0.911    0.089    0.660    1.000    1.000
+   Difference in the design variables:
+     fnt1_1( 1) =    0.00000  value1() =    1.00000  deltas() = -0.00231
+     fnt1_1( 2) =   -0.00000  value1() =    1.00000  deltas() = -0.00003  clamp1() = 0.100
+     fnt1_1( 3) =    0.00000  value1() =    0.00000  deltas() = -0.00118  clamp1() = 0.500
+     fnt1_1( 4) =   -0.00000  value1() =    1.00000  deltas() =  0.00000  clamp1() = 0.100
+     fnt1_1( 5) =   -0.00000  value1() =    0.12340  deltas() = -0.00105  clamp1() = 0.500
+   RMS error  =    0.00000043    Iteration =    3
+
+   ==========================================
+   Initial airfoil design for stage:  5
+   ==========================================
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000        0.000    0.911    0.089    0.660    1.000    1.000
+   Difference in the design variables:
+     fnt1_0( 1) =    0.00000  value1() =    1.00000
+     fnt1_0( 2) =   -0.00000  value1() =    1.00000
+     fnt1_0( 3) =    0.00000  value1() =    0.00000
+     fnt1_0( 4) =   -0.00000  value1() =    1.00000
+     fnt1_0( 5) =   -0.00000  value1() =    0.12340
+     fnt1_0( 6) =   -0.26653  value1() =   -0.26653
+     fnt1_0( 7) =    0.10034  value1() =    0.10034
+   RMS error  =    0.10764050    Iteration =    0
+
+
+   ********************** AIRFOIL DESIGN IS FINISHED **********************
+
+ ****************OUTPUT****************
+ * norm   x,y -> fort.95              *
+ * norm   x,y -> profoil.xy (high res)*
+ **************************************
+
+  Stagnation point falls on coordinate.
+ *********OUTPUT**************
+ * v(phi)     --> FOR060.DAT *
+ *********OUTPUT**************
+
+ *************************
+ *** WRITING DUMP FILE ***
+ *** --> profoil.dmp   ***
+ *************************
+
+ PROFOIL v4.2g October 2024 / MIT License
+
+   **** STATISTICS ****
+   POINTS =         60
+   ALFA_0 =    -10.826
+   CM_0   =    -0.2665
+   THKMAX =    12.340%
+   THKMAXE=    12.340%
+   CMBMAX =    10.034%
+   XCMAX  =    26.267%
+   XCMAXE =    26.267%
+   CHORD  = 3.563(MAP)
+   SX     =   0.008890
+   SY     =   0.002385
+   B0     =   0.001400
+   A1     =   1.000677
+   B1     =  -0.001279
+   ********************
+
+
+ 
+============================================
+Dump File: test-1095-e423-eppler-to-profoil-conversion.in
+============================================
+ 
+FOIL    16.40000    18.62533    1
+FOIL    18.40000     2.92533    2
+FOIL    20.40000     9.92533    3
+FOIL    21.50000    14.62533    4
+FOIL    23.50000    15.22533    5
+FOIL    25.50000    16.12533    6
+FOIL    27.50000    17.32533    7
+FOIL    29.50000    18.82533    8
+FOIL    31.50000    20.62533    9
+FOIL    34.72364    23.12533   10
+FOIL    36.50000     9.66425   11
+FOIL    38.50000    11.66425   12
+FOIL    40.50000    14.66425   13
+FOIL    45.50000    18.66425   14
+FOIL    50.50000    10.66425   15
+FOIL    55.00000     2.66425   16
+FOIL    60.00000     2.66425   17
+PHIS     5.00000    55.00000
+REC      0.38383     0.00000
+VLEV     1           1.70640
+ILE     10
+ 
+============================================
+Coordinates: test-1095-e423-eppler-to-profoil-conversion.in
+============================================
+ 
+       1.00000     0.00000
+       0.99646     0.00152
+       0.98683     0.00643
+       0.97274     0.01433
+       0.95500     0.02385
+       0.93331     0.03377
+       0.90705     0.04394
+       0.87636     0.05471
+       0.84181     0.06608
+       0.80392     0.07789
+       0.76325     0.08994
+       0.72038     0.10199
+       0.67588     0.11375
+       0.63034     0.12490
+       0.58431     0.13510
+       0.53832     0.14398
+       0.49288     0.15111
+       0.44814     0.15591
+       0.40410     0.15825
+       0.36098     0.15823
+       0.31898     0.15588
+       0.27839     0.15137
+       0.23945     0.14482
+       0.20246     0.13655
+       0.16780     0.12674
+       0.13578     0.11562
+       0.10670     0.10338
+       0.08081     0.09026
+       0.05831     0.07651
+       0.03936     0.06239
+       0.02409     0.04821
+       0.01256     0.03429
+       0.00481     0.02104
+       0.00077     0.00889
+       0.00028    -0.00137
+       0.00439    -0.00831
+       0.01421    -0.01243
+       0.02958    -0.01464
+       0.05022    -0.01466
+       0.07613    -0.01223
+       0.10753    -0.00732
+       0.14468     0.00006
+       0.18808     0.00940
+       0.23772     0.01931
+       0.29279     0.02883
+       0.35246     0.03712
+       0.41534     0.04303
+       0.47950     0.04632
+       0.54349     0.04761
+       0.60644     0.04712
+       0.66747     0.04500
+       0.72553     0.04124
+       0.77953     0.03619
+       0.82867     0.03044
+       0.87241     0.02440
+       0.91026     0.01843
+       0.94186     0.01289
+       0.96695     0.00801
+       0.98521     0.00398
+       0.99631     0.00112
+       1.00000    -0.00000
+ 
+************************************
+Running file: test-1096-e423-profoil-conversion.in
+************************************
+ 
+     1	AIRFOIL test-1096-e423-profoil-conversion
+     2	# Generated from "test-e423-eppler-to-profoil-conversion.in" and its output.
+     3	
+     4	#SKIP_UNKNOWN_WORDS
+     5	
+     6	COORD 60
+     7	FOIL    16.40000    18.62533    1
+     8	FOIL    18.40000     2.92533    2
+     9	FOIL    20.40000     9.92533    3
+    10	FOIL    21.50000    14.62533    4
+    11	FOIL    23.50000    15.22533    5
+    12	FOIL    25.50000    16.12533    6
+    13	FOIL    27.50000    17.32533    7
+    14	FOIL    29.50000    18.82533    8
+    15	FOIL    31.50000    20.62533    9
+    16	FOIL    34.72364    23.12533   10
+    17	FOIL    36.50000     9.66425   11
+    18	FOIL    38.50000    11.66425   12
+    19	FOIL    40.50000    14.66425   13
+    20	FOIL    45.50000    18.66425   14
+    21	FOIL    50.50000    10.66425   15
+    22	FOIL    55.00000     2.66425   16
+    23	FOIL    60.00000     2.66425   17
+    24	PHIS     5.00000    55.00000
+    25	REC      0.38383     0.00000001
+    26	VLEV     1           1.70640
+    27	ILE     10
+    28	
+    29	
+    30	# Use a cubic spline to find the maximum point for normalization to unit chord.
+    31	NORMALIZATION_METHOD 2
+    32	# Comment out next line if using this file as a starting point for a new design.
+    33	ALFA0_BUMP 0.12
+    34	
+    35	TOLSPEC 0.00001
+    36	ITERMAX 40
+    37	NOECHO
+    38	
+    39	# spec KS
+    40	NEWT1G0 100 1.0 1 10
+    41	IDES
+    42	
+    43	# spec Cmo
+    44	NEWT1G0 101 -0.26653  4 1 0.1
+    45	IDES
+    46	
+    47	# spec t/c max
+    48	NEWT1G0  107 .1234 6 300 .5 
+    49	IDES
+    50	
+    51	
+    52	
+    53	
+    54	FINISH 100
+    55	ALFASP 2
+    56	14
+    57	18
+    58	VELDIST 60
+    59	DUMP
+    60	
+    61	*
+    62	
+ 
+************************************
+Output from file: test-1096-e423-profoil-conversion.in
+************************************
+
+   ********************************************
+   Airfoil/Comment: test-1096-e423-profoil-conversion         
+   ********************************************
+
+   ==========================================
+   Initial airfoil design for stage:  1
+   ==========================================
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000       -0.000    0.911    0.089    0.660    1.000    1.000
+   Difference in the design variables:
+     fnt1_0( 1) =   -0.00028  value1() =    0.99972
+   RMS error  =    0.00028320    Iteration =    0
+   Iteration   1
+   Calculating partials for airfoil design parameter:   1
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000       -0.000    0.911    0.089    0.660    1.000    1.000
+   Difference in the design variables:
+     fnt1_1( 1) =   -0.00000  value1() =    1.00000  deltas() =  0.00003
+   RMS error  =    0.00000000    Iteration =    1
+
+   ==========================================
+   Initial airfoil design for stage:  2
+   ==========================================
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000       -0.000    0.911    0.089    0.660    1.000    1.000
+   Difference in the design variables:
+     fnt1_0( 1) =   -0.00000  value1() =    1.00000
+     fnt1_0( 2) =    0.00000  value1() =   -0.26653
+   RMS error  =    0.00000128    Iteration =    0
+
+   ==========================================
+   Initial airfoil design for stage:  3
+   ==========================================
+   Total airfoil design:
+         UMU(1)       UMU(2)   HKH(1)   HKH(2) OMEGA(1) OMEGA(2)      SKS
+          1.000       -0.000    0.911    0.089    0.660    1.000    1.000
+   Difference in the design variables:
+     fnt1_0( 1) =   -0.00000  value1() =    1.00000
+     fnt1_0( 2) =    0.00000  value1() =   -0.26653
+     fnt1_0( 3) =   -0.00000  value1() =    0.12340
+   RMS error  =    0.00000117    Iteration =    0
+
+
+   ********************** AIRFOIL DESIGN IS FINISHED **********************
+
+ ****************OUTPUT****************
+ * norm   x,y -> fort.95              *
+ * norm   x,y -> profoil.xy (high res)*
+ **************************************
+
+  Stagnation point falls on coordinate.
+ *********OUTPUT**************
+ * v(phi)     --> FOR060.DAT *
+ *********OUTPUT**************
+
+ *************************
+ *** WRITING DUMP FILE ***
+ *** --> profoil.dmp   ***
+ *************************
+
+ PROFOIL v4.2g October 2024 / MIT License
+
+   **** STATISTICS ****
+   POINTS =         60
+   ALFA_0 =    -10.826
+   CM_0   =    -0.2665
+   THKMAX =    12.340%
+   THKMAXE=    12.340%
+   CMBMAX =    10.034%
+   XCMAX  =    26.267%
+   XCMAXE =    26.267%
+   CHORD  = 3.563(MAP)
+   SX     =   0.008890
+   SY     =   0.002250
+   B0     =   0.001400
+   A1     =   1.000675
+   B1     =  -0.001279
+   ********************
+
+
+ 
+============================================
+Dump File: test-1096-e423-profoil-conversion.in
+============================================
+ 
+FOIL    16.40000    18.62533    1
+FOIL    18.40000     2.92533    2
+FOIL    20.40000     9.92533    3
+FOIL    21.50000    14.62533    4
+FOIL    23.50000    15.22533    5
+FOIL    25.50000    16.12533    6
+FOIL    27.50000    17.32533    7
+FOIL    29.50000    18.82533    8
+FOIL    31.50000    20.62533    9
+FOIL    34.72365    23.12533   10
+FOIL    36.50000     9.66425   11
+FOIL    38.50000    11.66425   12
+FOIL    40.50000    14.66425   13
+FOIL    45.50000    18.66425   14
+FOIL    50.50000    10.66425   15
+FOIL    55.00000     2.66425   16
+FOIL    60.00000     2.66425   17
+PHIS     5.00000    55.00000
+REC      0.38383     0.00000
+VLEV     1           1.70640
+ILE     10
+ 
+============================================
+Coordinates: test-1096-e423-profoil-conversion.in
+============================================
+ 
+       1.00000     0.00000
+       0.99646     0.00152
+       0.98684     0.00643
+       0.97274     0.01433
+       0.95500     0.02385
+       0.93331     0.03377
+       0.90705     0.04394
+       0.87636     0.05471
+       0.84181     0.06608
+       0.80392     0.07789
+       0.76325     0.08994
+       0.72038     0.10199
+       0.67588     0.11375
+       0.63034     0.12490
+       0.58431     0.13510
+       0.53832     0.14398
+       0.49288     0.15111
+       0.44814     0.15591
+       0.40410     0.15825
+       0.36098     0.15823
+       0.31898     0.15588
+       0.27839     0.15137
+       0.23945     0.14482
+       0.20246     0.13655
+       0.16780     0.12674
+       0.13578     0.11562
+       0.10670     0.10338
+       0.08081     0.09026
+       0.05831     0.07651
+       0.03936     0.06239
+       0.02409     0.04821
+       0.01256     0.03429
+       0.00481     0.02104
+       0.00077     0.00889
+       0.00028    -0.00137
+       0.00439    -0.00831
+       0.01421    -0.01243
+       0.02958    -0.01464
+       0.05022    -0.01466
+       0.07613    -0.01223
+       0.10753    -0.00732
+       0.14468     0.00006
+       0.18808     0.00940
+       0.23772     0.01931
+       0.29279     0.02883
+       0.35246     0.03712
+       0.41534     0.04303
+       0.47950     0.04632
+       0.54349     0.04761
+       0.60644     0.04712
+       0.66747     0.04500
+       0.72553     0.04124
+       0.77953     0.03619
+       0.82867     0.03044
+       0.87241     0.02440
+       0.91026     0.01843
+       0.94186     0.01289
+       0.96695     0.00801
+       0.98521     0.00398
+       0.99631     0.00112
        1.00000     0.00000
  

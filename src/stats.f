@@ -12,25 +12,25 @@ C***********************************************************************
          WRITE(lu06,*) 'Finished case:', JFOIL 
          WRITE(lu06,*) '***************************'
       ENDIF
-      WRITE(lu06,1001) IARGP, CHORD, -ALFA0, CM0, 100.*THKMAX,
+      WRITE(lu06,1001) IARGP, -ALFA0, CM0, 100.*THKMAX,
      $     100.*THKMAXE,
      $     100.*CMBMAX,
      $     100.*XCMAXE,
-     $     100.*XCMAX, SX, SY,
+     $     100.*XCMAX, CHORD, SX, SY,
      $     FSB0, FSA1, FSB1
       WRITE(lu06,*)
  1001 FORMAT(2X,' **** STATISTICS ****'/
-     $     2X,' IARGP  = ',  I10,/
-     $     2X,' CHORD  = ',F10.3,/
-     $     2X,' ALFA0  = ',F10.3,/
-     $     2X,' CM0    = ',F10.4,/
-     $     2X,' THKMAX = ',F9.2,'%',/
-     $     2X,' THKMAXE= ',F9.2,'%',/
-     $     2X,' CMBMAX = ',F9.2,'%',/
-     $     2X,' XCMAX  = ',F9.2,'%',/
-     $     2X,' XCMAXE = ',F9.2,'%',/
-     $     2X,' SX     = ',F10.3,/
-     $     2X,' SY     = ',F10.3,/
+     $     2X,' POINTS = ',  I10,/
+     $     2X,' ALFA_0 = ',F10.3,/
+     $     2X,' CM_0   = ',F10.4,/
+     $     2X,' THKMAX = ',F9.3,'%',/
+     $     2X,' THKMAXE= ',F9.3,'%',/
+     $     2X,' CMBMAX = ',F9.3,'%',/
+     $     2X,' XCMAX  = ',F9.3,'%',/
+     $     2X,' XCMAXE = ',F9.3,'%',/
+     $     2X,' CHORD  = ',F5.3,'(MAP)'/
+     $     2X,' SX     = ',F10.6,/
+     $     2X,' SY     = ',F10.6,/
      $     2X,' B0     = ',F10.6,/
      $     2X,' A1     = ',F10.6,/
      $     2X,' B1     = ',F10.6,/

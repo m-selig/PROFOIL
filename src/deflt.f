@@ -77,6 +77,10 @@ C---- Method for mapped airfoil normalization (MSelig20240920):
 C     INORMMETHOD = 1 ... Legacy 3-pt parabola. Default.
 C     INORMMETHOD = 2 ... Cubic spline. Recommended setting.
       INORMMETHOD = 1
+C---- Offset calculation of ALFA0 in norm.f
+C     Used to make closer match to Eppler airfoil coordinates when
+C     converting Eppler TRA data to PROFOIL data
+      ALFA0_BUMP = 0.0
 C---- no trailing edge thickness wedge
       LWEDGE = FF
 C---- flip airfoil over

@@ -289,7 +289,7 @@ C-----setup for call to BL subroutine
      $ TMAP(NARGP),
      $ AX(NARGP), BX(NARGP), CX(NARGP), DX(NARGP),
      $ AY(NARGP), BY(NARGP), CY(NARGP), DY(NARGP),
-     $ SX
+     $ SX,
      $ SY
       COMMON/ NRM/
      $ XLE(4),
@@ -299,6 +299,7 @@ C-----setup for call to BL subroutine
      $ XTMP(NARGP),
      $ YTMP(NARGP),
      $ ALFA0,
+     $ ALFA0_BUMP,
      $ CHORD,
      $ IMAX,
      $ INORMMETHOD 

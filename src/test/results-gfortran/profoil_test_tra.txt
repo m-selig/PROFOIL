@@ -1,4 +1,4 @@
-Thu Nov 24 21:56:45 CST 2022
+Sat Oct 5 20:30:01 CDT 2024
 ************************************
 Running file: test-1030-many-segments-and-tra.in
 ************************************
@@ -10,7 +10,7 @@ Eppler style output
  
 
 
-        PROFOIL    Version 2.0   March 2022
+        PROFOIL    Version 4.2g   October 2024
 
   ITERATION 0
 
